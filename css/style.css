@@ -60,3 +60,21 @@ h2{
     font-size: 8vh;
     text-align: center;
 }
+
+/*background color*/
+
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.yellowtext{
+    color: yellow;
+}
+.greentext{
+    color: green;
+}
