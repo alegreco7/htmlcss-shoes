@@ -7,7 +7,6 @@
     height: 100vh;
     position: relative;
 }
-/*number*/
 header{
     position: absolute;
     right: 0;
@@ -38,4 +37,26 @@ a{
 }
 .circle:hover{
     box-shadow: 5px 5px 5px black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.circle:hover{
+    box-shadow: 5px 5px 5px black;
+}
+img,span{
+    height: 40vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+
+h2{
+    position: relative;
+    top: 100%;
+    font-size: 8vh;
+    text-align: center;
 }
