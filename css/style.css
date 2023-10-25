@@ -3,3 +3,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+.block{
+    height: 100vh;
+    position: relative;
+}
+/*number*/
+header{
+    position: absolute;
+    right: 0;
+
+}
+ul{
+    position: fixed;
+    right: 0%;
+    z-index: 12;
+}
+.circle{
+    margin: 1vh;
+    border-radius: 50%;
+    height: 6vh;
+    width: 6vh;
+    position: relative;
+    background-color: beige;
+    display: inline-block;
+    text-align: center;
+    line-height: 6vh;
+    font-size: 3vh;
+    cursor: pointer;
+    z-index: 10;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.circle:hover{
+    box-shadow: 5px 5px 5px black;
+}
